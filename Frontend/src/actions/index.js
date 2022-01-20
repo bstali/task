@@ -2,7 +2,6 @@ import { FIELDS_DATA } from "./fields";
 import axios from "axios";
 
 export const fieldsData = (fieldsData) => {
-  console.log("sssssssss", fieldsData);
 
   return {
     type: FIELDS_DATA,

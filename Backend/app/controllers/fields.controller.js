@@ -5,14 +5,22 @@ const result = [
   "label": "Client Name",
   "name":"name",
   "type": "Text",
-  "maxLength": 100
+  "maxLength": 100,
+  "componentName": "inputField"
   },
   {
-  "_id": "228b905f-4a43-4a40-b829-0c6a04ad4782",
-  "label":"Client Age",
-  "name": "age",
-  "type": "number"
-  }
+    "_id": "228b905f-4a43-4a40-b829-0c6a04ad4782",
+    "label":"Client Age",
+    "name": "age",
+    "type": "number",
+    "componentName": "inputField"
+    },
+  {
+    "_id": "228b905f-4a43-4a40-b829-0c6a04ad47",
+    "label":"save",
+    "name": "save",
+    "componentName": "button"
+    }
   ]
 
   exports.allFields = async (req, res) => {
